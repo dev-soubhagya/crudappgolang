@@ -69,14 +69,9 @@ go mod tidy
 ### Step 3: Configure Environment Variables
 Create a file named `cred.env` in the `environment/` directory with the following content:
 ```
-MYSQL_USER=<your_mysql_user>
-MYSQL_PASSWORD=<your_mysql_password>
-MYSQL_HOST=localhost
-MYSQL_PORT=3306
-MYSQL_DB=mydb
+DB_DSN = "user:password@tcp(localhost:3306)/mydb"
+REDIS_HOST = "localhost:6379"
 
-REDIS_HOST=localhost
-REDIS_PORT=6379
 ```
 
 ### Step 4: Run the Application
