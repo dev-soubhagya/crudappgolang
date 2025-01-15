@@ -132,6 +132,6 @@ Update user details.
 
 ## Technologies Used
 - **Framework**: [Gin](https://github.com/gin-gonic/gin)
-- **Database**: MySQL
-- **Cache**: Redis
+- **Database**: MySQL [Go Library](database/sql)
+- **Cache**: Redis [Go Library](github.com/gomodule/redigo/redis)
 - **Excel Parsing**: [Excelize](https://github.com/xuri/excelize)
